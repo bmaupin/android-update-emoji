@@ -1,0 +1,14 @@
+The following files are from external sources:
+
+android-versions/nougat/system/fonts/NotoColorEmoji.ttf
+Source: https://android.googlesource.com/platform/external/noto-fonts/+/nougat-release/other/NotoColorEmoji.ttf
+License: SIL Open Font License, Version 1.1
+
+android-versions/oreo/system/fonts/NotoColorEmoji.ttf
+Source: https://android.googlesource.com/platform/external/noto-fonts/+/oreo-release/emoji/NotoColorEmoji.ttf
+License: SIL Open Font License, Version 1.1
+
+META-INF/com/google/android/update-binary
+Source: https://developers.google.com/android/ota > hammerhead 6.0.1 (MMB29X)
+    (https://dl.google.com/dl/android/aosp/hammerhead-ota-mmb29x-13c27a19.zip)
+License: Apache 2.0

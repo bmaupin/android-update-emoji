@@ -1,0 +1,32 @@
+# Reference: https://source.android.com/devices/tech/ota/inside_packages.html#edify-syntax
+
+# Create and show a progress bar that can go up to 100%
+show_progress(1,0);
+
+ui_print("Mounting /system");
+run_program("/sbin/sleep", "1");
+run_program("/sbin/busybox", "blockdev", "--setrw", "/dev/block/bootdevice/by-name/system");
+run_program("/sbin/busybox", "mount", "/system");
+
+# Update progress to 25%
+set_progress(0.25);
+
+ui_print("Installing VERSION emoji");
+package_extract_dir("system", "/system");
+
+# Update progress to 50%
+set_progress(0.5);
+
+ui_print("Correcting permissions");
+run_program("/sbin/busybox", "chmod", "0644", "/system/fonts/NotoColorEmoji.ttf");
+run_program("/sbin/busybox", "chown", "0:0", "/system/fonts/NotoColorEmoji.ttf");
+
+# Update progress to 75%
+set_progress(0.75);
+
+ui_print("Unmounting /system");
+ifelse(is_mounted("/system") == "/system", unmount("/system"));
+
+# Update progress to 100%
+set_progress(1);
+ui_print("Done");
