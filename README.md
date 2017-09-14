@@ -12,7 +12,7 @@
 
 4. Flash the zip file and reboot your phone
 
-5. If you don't see the new emoji, update your keyboard to the latest version. Keyboard apps which should work:
+5. If the new emoji aren't available on your keyboard, update your keyboard app to the latest version. Keyboard apps which should work:
     - [Google Keyboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
     - [SwiftKey](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)
     - [Fleksy](https://play.google.com/store/apps/details?id=com.syntellia.fleksy.keyboard)
