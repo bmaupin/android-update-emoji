@@ -1,8 +1,8 @@
 **Installation**
 
 1. Decide which emoji you want to install
-    - [Nougat (Android 7) emoji](https://blog.emojipedia.org/android-7-0-emoji-changelog/)
-    - [Oreo (Android 8) emoji](https://blog.emojipedia.org/android-8-0-emoji-changelog/)
+    - [Nougat (Android 7) emoji](https://emojipedia.org/google/android-7.0/)
+    - [Oreo (Android 8) emoji](https://emojipedia.org/google/android-8.0/)
 
 2. Download the appropriate flashable zip file and copy it to your device  
   https://github.com/bmaupin/android-update-emoji/releases
