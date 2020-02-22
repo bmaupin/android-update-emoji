@@ -1,11 +1,19 @@
 The following files are from external sources:
 
+android-versions/android10/system/fonts/NotoColorEmoji.ttf
+Source: https://android.googlesource.com/platform/external/noto-fonts/+/android10-release/emoji/NotoColorEmoji.ttf
+License: SIL Open Font License, Version 1.1
+
 android-versions/nougat/system/fonts/NotoColorEmoji.ttf
 Source: https://android.googlesource.com/platform/external/noto-fonts/+/nougat-release/other/NotoColorEmoji.ttf
 License: SIL Open Font License, Version 1.1
 
 android-versions/oreo/system/fonts/NotoColorEmoji.ttf
 Source: https://android.googlesource.com/platform/external/noto-fonts/+/oreo-release/emoji/NotoColorEmoji.ttf
+License: SIL Open Font License, Version 1.1
+
+android-versions/pie/system/fonts/NotoColorEmoji.ttf
+Source: https://android.googlesource.com/platform/external/noto-fonts/+/pie-release/emoji/NotoColorEmoji.ttf
 License: SIL Open Font License, Version 1.1
 
 META-INF/com/google/android/update-binary
