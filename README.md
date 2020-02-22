@@ -1,3 +1,8 @@
+### ⚠️ Do not use these flashable zip files on Android 7 (Nougat) and above
+
+Android 7 has extra security measures that prevent writing to the /system partition. At best, these flashable zip files won't do anything. At worst, your phone may not boot at all or may become unusably slow.
+
+
 ### Installation
 
 1. Decide which emoji you want to install
