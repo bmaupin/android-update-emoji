@@ -2,6 +2,8 @@
 
 Android 7 has extra security measures that prevent writing to the /system partition. At best, these flashable zip files won't do anything. At worst, your phone may not boot at all or may become unusably slow.
 
+However, it may be enough just to update your keyboard app. For example, the [Google Keyboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin) seems to support newer emoji on older devices without any further modifications, although the newer emoji may not show in all apps.
+
 
 ### Installation
 
