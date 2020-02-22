@@ -18,3 +18,19 @@
     - [Google Keyboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
     - [SwiftKey](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)
     - [Fleksy](https://play.google.com/store/apps/details?id=com.syntellia.fleksy.keyboard)
+
+
+### Adding new emoji to this project
+
+1. Find the branch for the version of Android (for example, `android10-release`):
+    [https://android.googlesource.com/platform/external/noto-fonts/+refs](https://android.googlesource.com/platform/external/noto-fonts/+refs)
+
+1. Browse to the release, the font should be in the `emoji` folder
+
+1. Browse the the font file and copy the URL
+
+1. Download the font and convert it from base64, for example:
+
+    ```
+    curl 'https://android.googlesource.com/platform/external/noto-fonts/+/android10-release/emoji/NotoColorEmoji.ttf?format=TEXT' | base64 -d > NotoColorEmoji.ttf
+    ```
